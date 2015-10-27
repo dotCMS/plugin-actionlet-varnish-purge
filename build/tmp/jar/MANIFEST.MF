@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS  / Varnish Purge Actionlet
+Bundle-SymbolicName: plugin-actionlet-varnish-purge
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1445953381000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.osgi.framework;version=0,com.
+ dotmarketing.beans;version=0,com.dotmarketing.business;version=0,com.
+ dotmarketing.osgi;version=0,com.dotmarketing.portlets.contentlet.mode
+ l;version=0,com.dotmarketing.portlets.structure.model;version=0,com.d
+ otmarketing.portlets.workflows.actionlet;version=0,com.dotmarketing.p
+ ortlets.workflows.model;version=0,com.dotmarketing.util;version=0
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dotcms.varnish;version="0.1";uses:="com.dotcms.rep
+ ackage.org.osgi.framework,com.dotmarketing.osgi,com.dotmarketing.port
+ lets.workflows.actionlet,com.dotmarketing.portlets.workflows.model"
+Bundle-Name: Varnish Purge Actionlet
+Bundle-Version: 0.1
+Bundle-ClassPath: .,libs/httpclient-4.5.1.jar,libs/httpcore-4.4.3.jar
+Bundle-Activator: com.dotcms.varnish.Activator
+Created-By: 1.8.0_51 (Oracle Corporation)
+
