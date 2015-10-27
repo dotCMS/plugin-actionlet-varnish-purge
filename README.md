@@ -1,5 +1,5 @@
 
-README
+# Purging Varnish Cache Plugin - README
 ------
 
 This bundle plugin will provide a workflow actionlet called "Purge Varnish Cache" that can be added to any workflow process.  It is a proof of concept (can be improved or customized) that allows you to create content workflows in dotCMS that will send an HTTP PURGE request to an external Varnish cache. You configure your varnish endpoint using the plugin.properties file here:
@@ -26,4 +26,3 @@ Upload the bundle jar file using the dotCMS UI (CMS Admin->Dynamic Plugins->Uplo
 Remove the bundle jar file from the Felix OSGI container (dotCMS/felix/load).
         OR
 Undeploy the bundle using the dotCMS UI (CMS Admin->Dynamic Plugins->Undeploy).
-
