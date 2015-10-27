@@ -27,4 +27,3 @@ Remove the bundle jar file from the Felix OSGI container (dotCMS/felix/load).
         OR
 Undeploy the bundle using the dotCMS UI (CMS Admin->Dynamic Plugins->Undeploy).
 
-# plugin-actionlet-varnish-purge
