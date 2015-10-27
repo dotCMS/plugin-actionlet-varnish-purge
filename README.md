@@ -2,19 +2,8 @@
 README
 ------
 
-This bundle plugin will provide a workflow actionlet called "Static Publish" that can be added to any workflow process.  It allows you to statically publish your content, page or file to your server's filesystem.   You configure this plugin using the plugin.properties file here:
+This bundle plugin will provide a workflow actionlet called "Purge Varnish Cache" that can be added to any workflow process.  It is a proof oc concept plugin that allows you to create workflows that will purge an external varnish cache You configure your varnish endpoint using the plugin.properties file here:
 `/src/main/resources/plugin.properties`
-
-the 
-STATIC_PUBLISH_FOLDER value is the root folder to which your pages/content will be statically published.  For security, it MUST point to folder that is under your WEBROOT.  The variables $hostname and $language can be used in the STATIC_PUBLISH_FOLDER you specify and will be replaced by the values in the contentlet, e.g.
-
-```
-/opt/dotcms/tomcat8/webapps/ROOT/static/$hostname/$language
-```
- would be expanded to
-```
-/opt/dotcms/tomcat8/webapps/ROOT/static/demo.dotcms.com/en
-```
 
 
 
