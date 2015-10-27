@@ -2,7 +2,7 @@
 README
 ------
 
-This bundle plugin will provide a workflow actionlet called "Purge Varnish Cache" that can be added to any workflow process.  It is a proof oc concept plugin that allows you to create workflows that will purge an external varnish cache You configure your varnish endpoint using the plugin.properties file here:
+This bundle plugin will provide a workflow actionlet called "Purge Varnish Cache" that can be added to any workflow process.  It is a proof of concept (can be improved or customized) that allows you to create content workflows in dotCMS that will send an HTTP PURGE request to an external Varnish cache. You configure your varnish endpoint using the plugin.properties file here:
 `/src/main/resources/plugin.properties`
 
 
